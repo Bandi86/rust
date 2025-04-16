@@ -18,3 +18,7 @@ edit the users up sql file create table
 
 then sqlx migrate run
 
+checking server:
+psql -U postgres -h localhost -p 5432 -l
+
+models.rs
